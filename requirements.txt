@@ -1,0 +1,42 @@
+# Core
+langchain==0.3.25
+langchain-core==0.3.58
+langchain-openai==0.3.16
+langchain-community==0.3.24
+langchain-text-splitters==0.3.8
+
+# Vector Store
+faiss-cpu==1.9.0
+
+# API
+fastapi==0.115.12
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# Document Loaders
+pypdf==5.4.0
+docx2txt==0.8
+unstructured==0.17.2
+
+# Config
+pydantic==2.11.3
+pydantic-settings==2.9.1
+
+# External APIs
+duckduckgo-search==7.5.3
+pyowm==3.3.0
+requests==2.32.3
+
+# Web loader
+beautifulsoup4==4.13.3
+
+# Optional: Redis memory backend
+# redis==5.2.1
+# langchain-redis==0.1.0
+
+# Testing
+pytest==8.3.5
+pytest-asyncio==0.25.3
+
+# Dev
+python-dotenv==1.1.0
