@@ -260,8 +260,8 @@ Type-safe, validated config with IDE autocompletion. Every setting has a clear t
 **Bassirou** — AI Engineer  
 Specializing in LangChain, RAG pipelines, and production AI systems.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/bassirou)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github)](https://github.com/bassirou)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/bassirou-thioune-01b9131b6/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github)](https://github.com/thiouneba)
 
 ---
 
