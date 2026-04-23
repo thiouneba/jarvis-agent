@@ -1,4 +1,4 @@
-# 🤖 JARVIS — Autonomous AI Agent
+#  JARVIS — Autonomous AI Agent
 
 > A production-ready autonomous agent built with **LangChain + Python** that combines RAG, real-time web search, and persistent memory to answer complex questions intelligently.
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🧠 What is this?
+##  What is this?
 
 I built JARVIS as a real-world demonstration of what an **AI engineer** actually does day-to-day: designing intelligent systems that go beyond simple chatbots.
 
@@ -28,7 +28,7 @@ The architecture is designed to be **extended** — adding a new tool is a singl
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 jarvis-agent/
@@ -56,22 +56,22 @@ jarvis-agent/
 
 ---
 
-## 🛠️ Tools Available to the Agent
+##  Tools Available to the Agent
 
 | Tool | Description |
 |------|-------------|
-| 🔍 `web_search` | Real-time web search via DuckDuckGo |
-| 📚 `rag_search` | Semantic search over your local documents |
-| 🧮 `calculator` | Safe math evaluation (AST-based, no `eval`) |
-| 📝 `save_note` / `get_note` | In-session key-value memory |
-| 🌦️ `get_weather` | Real-time weather via OpenWeatherMap |
-| 🔗 `summarize_url` | Fetch and read any public webpage |
+|  `web_search` | Real-time web search via DuckDuckGo |
+|  `rag_search` | Semantic search over your local documents |
+|  `calculator` | Safe math evaluation (AST-based, no `eval`) |
+|  `save_note` / `get_note` | In-session key-value memory |
+|  `get_weather` | Real-time weather via OpenWeatherMap |
+|  `summarize_url` | Fetch and read any public webpage |
 
 The agent selects tools **automatically** using OpenAI's tool-calling API — no hardcoded routing.
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone & install
 
@@ -109,13 +109,13 @@ python main.py
 
 ```
 ╔══════════════════════════════════════════════════════╗
-║         🤖  J A R V I S  A G E N T  v1.0            ║
+║           J A R V I S  A G E N T  v1.0            ║
 ║   Autonomous AI · RAG · Web Search · Memory          ║
 ╚══════════════════════════════════════════════════════╝
 
-🧑 You: What is the capital of Senegal and what's the weather like there?
+ You: What is the capital of Senegal and what's the weather like there?
 
-🤖 JARVIS: The capital of Senegal is Dakar. 
+ JARVIS: The capital of Senegal is Dakar. 
   Currently in Dakar: 28°C, partly cloudy, humidity 74%, wind 15 km/h.
 ```
 
@@ -169,7 +169,7 @@ Health check + model info.
 
 ---
 
-## 🧪 Tests
+##  Tests
 
 ```bash
 pytest tests/ -v
@@ -184,7 +184,7 @@ Tests cover:
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 All settings are managed via Pydantic BaseSettings and can be overridden via `.env`:
 
@@ -199,7 +199,7 @@ All settings are managed via Pydantic BaseSettings and can be overridden via `.e
 
 ---
 
-## 🔧 Extending the Agent
+##  Extending the Agent
 
 Adding a new tool is as simple as:
 
@@ -231,7 +231,7 @@ That's it. No changes to the agent core needed.
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 - [ ] LangGraph multi-agent orchestration (planner + executor)
 - [ ] Streaming responses via WebSocket
@@ -242,7 +242,7 @@ That's it. No changes to the agent core needed.
 
 ---
 
-## 💡 Design Decisions
+##  Design Decisions
 
 **Why FAISS instead of Chroma/Pinecone?**  
 FAISS runs fully locally with no server needed, making this repo zero-infrastructure to run. For production, swapping to Chroma or Pinecone requires changing a single class.
@@ -255,7 +255,7 @@ Type-safe, validated config with IDE autocompletion. Every setting has a clear t
 
 ---
 
-## 👤 Author
+##  Author
 
 **Bassirou** — AI Engineer  
 Specializing in LangChain, RAG pipelines, and production AI systems.
