@@ -109,7 +109,7 @@ python main.py
 
 ```
 ╔══════════════════════════════════════════════════════╗
-║           J A R V I S  A G E N T  v1.0            ║
+║           J A R V I S  A G E N T  v1.0               ║
 ║   Autonomous AI · RAG · Web Search · Memory          ║
 ╚══════════════════════════════════════════════════════╝
 
